@@ -52,6 +52,9 @@ text = "cat"
 print(text.replace("c", "r"))
 print(str.replace(text, "c", "r"))
 
+s = "Cat"
+s2 = "R" + s[1:]
+print(s2)
 
 
 
